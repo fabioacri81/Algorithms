@@ -1,2 +1,2 @@
-# Algorithms && Solutions
-Algorithms && Solutions across quiz and tests
+# Algorithms and Solutions
+Algorithms and Solutions across quiz and tests

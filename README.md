@@ -1,2 +1,2 @@
 # Algorithms and Solutions
-Algorithms and Solutions across quiz and tests
+Some Algorithms and Solutions across quiz and tests from Hacker Rank

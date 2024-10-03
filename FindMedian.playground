@@ -1,0 +1,7 @@
+// MARK: - Mock Test
+func findMedian(arr: [Int]) -> Int {
+    let sorted = arr.sorted(by: <)
+    return sorted[sorted.count / 2]
+}
+
+print(findMedian(arr: [5, 3, 1, 2, 4]))

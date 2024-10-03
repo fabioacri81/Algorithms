@@ -1,0 +1,16 @@
+import Foundation
+
+func plusMinus(arr: [Int]) -> Void {
+    let len: Float = Float(arr.count)
+    let ratioPos: Float = Float(Float(arr.filter { $0 > 0 }.count) / len)
+    let ratioNeg: Float = Float(Float(arr.filter { $0 < 0 }.count) / len)
+    let ratioZero: Float = Float(Float(arr.filter { $0 == 0 }.count) / len)
+    
+    let lineA: String = String(format: "%.6f", ratioPos)
+    let lineB: String = String(format: "%.6f", ratioNeg)
+    let lineC: String = String(format: "%.6f", ratioZero)
+    
+    print([lineA, lineB, lineC].joined(separator: "\n"))
+}
+
+plusMinus(arr: [-4, 3, -9, 0, 4, 1])
